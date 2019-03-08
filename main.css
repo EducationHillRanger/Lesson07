@@ -6,37 +6,32 @@
 .overall {
     background-color: lightcyan;
 }
+
 .container {
-    background-color: whitesmoke;
-    /* height: 600px; */
-
-    /* use the Flexbox module */
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    
-    
-}
-
-.item {
-    background-color: lightskyblue;
-    padding: 5px;
-    margin: 15px;
-    width: 400px;
-    height: 200px;
+   
+  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
-    color: blue;
+    
     flex-grow: 1;
     flex-shrink: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    box-shadow: 5px, 5px, 5px, 5px;
+    
+    
 }
 h2 {
     color: red;
     size: 30px;
 }
 
-
+.item {
+    padding: 15px;
+    margin: 15px;
+    background-color: blue
+}
 
 
 #item2 {
